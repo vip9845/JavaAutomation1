@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite" parallel="none">
+<test name="testValidLoginLogOut">
+<classes>
+<class name="scripts.ValidLoginLogout"/>
+</classes>
+</test>
+<!-- <test name="TestB1">
+<classes>
+<class name="com.automation.working.day8.DemoB"/>
+</classes>
+</test> -->
+</suite>

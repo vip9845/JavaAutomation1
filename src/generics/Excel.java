@@ -31,7 +31,7 @@ public static int getRowCount(String path,String sheet) {
 		String v="";
 		try
 		{
-			FileInputStream fis=new FileInputStream("C:\\Users\\VISHNU\\JavaAF\\JavaAutomation\\input.xlsx");
+			FileInputStream fis=new FileInputStream(path);
 		    Workbook wb=WorkbookFactory.create(fis);
 		    v=wb.getSheet(sheet).getRow(r).getCell(c).toString();
 		    
