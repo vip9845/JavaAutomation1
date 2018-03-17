@@ -13,7 +13,7 @@ public static int getRowCount(String path,String sheet) {
 		
 		try
 		{			
-			FileInputStream fis=new FileInputStream("C:\\Users\\VISHNU\\JavaAF\\JavaAutomation\\input.xlsx");
+			FileInputStream fis=new FileInputStream("C:\\Users\\VISHNU\\JavaAF\\JavaAutomation\\data\\input.xlsx");
 		    Workbook wb=WorkbookFactory.create(fis);
 		    rc=wb.getSheet(sheet).getLastRowNum();		
 		    System.out.println("Successfully reading of the Excel is completed");

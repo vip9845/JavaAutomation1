@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="suite" duration-ms="18439" started-at="2018-03-11T12:10:38Z" finished-at="2018-03-11T12:10:56Z">
+  <suite name="suite" duration-ms="28666" started-at="2018-03-17T13:59:42Z" finished-at="2018-03-17T14:00:10Z">
     <groups>
     </groups>
-    <test name="testValidLoginLogOut" duration-ms="18439" started-at="2018-03-11T12:10:38Z" finished-at="2018-03-11T12:10:56Z">
-      <class name="scripts.ValidLoginLogout">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.ValidLoginLogout@2d45ba]" name="preCondition" is-config="true" duration-ms="6278" started-at="2018-03-11T17:40:38Z" finished-at="2018-03-11T17:40:44Z">
+    <test name="testVerifyProductVersion" duration-ms="28666" started-at="2018-03-17T13:59:42Z" finished-at="2018-03-17T14:00:10Z">
+      <class name="scripts.VerifyProductVersion">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.VerifyProductVersion@2d45ba]" name="preCondition" is-config="true" duration-ms="6978" started-at="2018-03-17T19:29:42Z" finished-at="2018-03-17T19:29:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testValidLoginLogOut()[pri:0, instance:scripts.ValidLoginLogout@2d45ba]" name="testValidLoginLogOut" duration-ms="11849" started-at="2018-03-11T17:40:44Z" finished-at="2018-03-11T17:40:56Z">
+        <test-method status="PASS" signature="testVerifyProductVersion()[pri:0, instance:scripts.VerifyProductVersion@2d45ba]" name="testVerifyProductVersion" duration-ms="21398" started-at="2018-03-17T19:29:49Z" finished-at="2018-03-17T19:30:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testValidLoginLogOut -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.ValidLoginLogout@2d45ba]" name="postCondition" is-config="true" duration-ms="283" started-at="2018-03-11T17:40:56Z" finished-at="2018-03-11T17:40:56Z">
+        </test-method> <!-- testVerifyProductVersion -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.VerifyProductVersion@2d45ba]" name="postCondition" is-config="true" duration-ms="263" started-at="2018-03-17T19:30:10Z" finished-at="2018-03-17T19:30:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- scripts.ValidLoginLogout -->
-    </test> <!-- testValidLoginLogOut -->
+      </class> <!-- scripts.VerifyProductVersion -->
+    </test> <!-- testVerifyProductVersion -->
   </suite> <!-- suite -->
 </testng-results>

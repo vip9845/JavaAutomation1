@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="suite" parallel="none">
-<test name="testValidLoginLogOut">
+<test name="testVerifyProductVersion">
 <classes>
-<class name="scripts.ValidLoginLogout"/>
+<class name="scripts.VerifyProductVersion"/>
 </classes>
 </test>
 <!-- <test name="TestB1">

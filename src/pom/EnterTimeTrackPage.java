@@ -18,14 +18,14 @@ public class EnterTimeTrackPage extends BasePage {
 	@FindBy(xpath="(//div[@class='popup_menu_arrow'])[3]")
 	private WebElement help;
 	
-	@FindBy(linkText="About actiTime")
+	@FindBy(xpath=".//a[.='About actiTIME']")
 	private WebElement aboutActiTime;
 	
-	@FindBy(xpath="html/body/table/tbody/tr/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/nobr")
-	private WebElement productVersion;
-	
-	@FindBy(xpath="//span[@class='productversion']")
+	@FindBy(xpath=".//*[@id='aboutPopup']/div/table[1]/tbody/tr/td/img")
 	private WebElement closeButton;
+	
+	@FindBy(xpath="//span[@class='productVersion']")
+	private WebElement productVersion;
 	
 	public void ClickLogOutLink()
 	{
